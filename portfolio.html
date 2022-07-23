@@ -17,42 +17,45 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+  
     <!-- Кастомні стилі -->
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+
   </head>
   <body>
     <!-- Секція header -->
-    <header class="page-header">
+    <header class="header">
       <div class="container header-container">
-        <a class="header-logo link" href="./index.html">
+        <a class="logo link" href="./index.html">
           Web<span class="logo-style-black">Studio</span></a
         >
-        <nav class="header-nav">
-          <ul class="header-list list">
-            <li class="header-list-item">
-              <a class="header-link link" href="./index.html">Студия</a>
-            </li>
-            <li class="header-list-item">
-              <a class="header-link link current-link" href="./portfolio.html"
-                >Портфолио</a
+        <nav class="nav">
+          <ul class="header__list list">
+            <li class="nav__list-item">
+              <a class="nav-link link" href="./index.html"
+                >Студия</a
               >
             </li>
-            <li class="header-list-item">
-              <a class="header-link link" href="#">Контакты</a>
+            <li class="nav__list-item">
+              <a class="nav-link link current--link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav-link link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="list header-list">
-          <li class="item">
-            <a class="header-contact link" href="mailto:info@devstudio.com">
-              <svg class="header-icon" width="16" height="12">
+        <ul class="contact header__list list">
+          <li class="contact-mail">
+            <a class="contact-list link" href="mailto:info@devstudio.com">
+              <svg class="contact--icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="header-contact link" href="tel:+380961111111">
-              <svg class="header-icon" width="10" height="16">
+          <li class="contact-telephone">
+            <a class="contact-list link" href="tel:+380961111111">
+              <svg class="contact--icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -313,7 +316,7 @@
     <footer class="page-footer">
       <div class="container footer-box">
         <div class="footer-item-adress">
-          <a class="header-logo link footer-logo" href="./index.html">
+          <a class="logo link footer-logo" href="./index.html">
             Web<span class="logo-style-white">Studio</span></a
           >
           <address class="footer-logo">
