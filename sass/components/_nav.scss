@@ -9,10 +9,18 @@
     letter-spacing: 0.02em;
     color: var(--black-cl);
     transition: color var(--anim);
-  }
+    &:hover,
+    &:focus {
+       color: var(--accent-cl);
+     }}
+
   .nav__list-item:not(:last-child) {
     margin-right: 50px;
   }
+  .nav__list-item {
+    position: relative; }
+
+
 
   .current--link {
     position: relative;
@@ -34,11 +42,3 @@
   }}
     /* Ховер, Фокус для меню */
     /* Риска на меню */
-    .nav__list-item {
-        position: relative; 
- &:hover,
- &:focus {
-    color: var(--accent-cl);
-  }}
-
-  
