@@ -1,4 +1,3 @@
-
 .nav-link {
     display: block;
     padding-top: 32px;
@@ -9,9 +8,11 @@
     letter-spacing: 0.02em;
     color: var(--black-cl);
     transition: color var(--anim);
+    
+    /* Ховер, Фокус меню */
     &:hover,
     &:focus {
-       color: var(--accent-cl);
+    color: var(--accent-cl);
      }}
 
   .nav__list-item:not(:last-child) {
@@ -19,8 +20,6 @@
   }
   .nav__list-item {
     position: relative; }
-
-
 
   .current--link {
     position: relative;
