@@ -8,12 +8,12 @@
     letter-spacing: 0.02em;
     color: var(--black-cl);
     transition: color var(--anim);
-    
-    /* Ховер, Фокус меню */
-    &:hover,
-    &:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-cl);
-     }}
+  }
+  }
+
 
   .nav__list-item:not(:last-child) {
     margin-right: 50px;
